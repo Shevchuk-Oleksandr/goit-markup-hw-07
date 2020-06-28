@@ -148,10 +148,9 @@ body {
 
 .telefon {
   display: flex;
-  align-items: center;
 }
 
-.menu__li.active a {
+.menu__li .active a {
   color: var(--akcent-color);
 }
 

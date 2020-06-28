@@ -1,0 +1,21 @@
+$bagraund-color: #ffffff;
+$text-color: #757575;
+$had-color: #212121;
+$akcent-color: #2196f3;
+$baground-color-second: #f5f4fa;
+$info-color: rgba(255, 255, 255, 0.6);
+$foter-color: #2f303a;
+
+body {
+  background-color: $bagraund-color;
+  color: $text-color;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  width: 1200px;
+
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
