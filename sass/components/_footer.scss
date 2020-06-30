@@ -1,0 +1,149 @@
+.footer {
+  background-color: $footer-color;
+  padding-top: 48px;
+}
+
+.block-adress {
+  margin-right: 69px;
+}
+
+.block-join {
+  margin-right: 93px;
+}
+
+.container-footer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-main {
+  display: flex;
+  margin-bottom: 28px;
+  justify-content: center;
+}
+
+.copirate {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-info {
+  padding-left: 0;
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--begraund-color);
+}
+
+.adress-item p {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.footer-logo {
+  color: var(--begraund-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.join-in {
+  color: var(--begraund-color);
+  margin: 0;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.button-intem {
+  padding-left: 160px;
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+.adres-title {
+  color: var(--info-color);
+  font-size: 12px;
+  line-height: 2;
+  text-decoration: none;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+}
+
+.input {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 16px 15px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #2f303a;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  padding: 0 12px;
+  font-size: 16px;
+  line-height: 1, 87;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.icon-link {
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  --color4: white;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: $akcent-color;
+}
+
+.send-button .button {
+  position: relative;
+}
+
+.send-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  transform: rotateY(2px);
+}

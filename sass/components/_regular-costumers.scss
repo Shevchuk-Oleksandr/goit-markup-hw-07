@@ -1,0 +1,76 @@
+.Regular-customers {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.Regular-customers .container-costumers {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-costumers .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  margin-right: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular:last-child {
+  margin-right: 0;
+}
+
+.regular:hover {
+  border: 1px solid $akcent-color;
+}
+
+.regular .link {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular .link:hover,
+.regular .link:focus {
+  fill: $akcent-color;
+}
+
+.icon-yoco {
+  width: 44px;
+  height: 49px;
+}
+
+.icon-tagline {
+  width: 40px;
+  height: 52px;
+}
+
+.icon-company {
+  width: 41px;
+  height: 42px;
+}
+
+.icon-foster {
+  width: 79px;
+  height: 42px;
+}
+
+.icon-brand {
+  width: 59px;
+  height: 47px;
+}
+
+.icon-tag {
+  width: 88px;
+  height: 45px;
+}
