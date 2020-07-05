@@ -77,12 +77,12 @@ body {
   padding-bottom: 32px;
 }
 
-.site-nav .item {
-  position: relative;
+.site-nav .link.link:hover, .site-nav .link.link:focus {
+  color: #2196f3;
 }
 
-.site-nav .item.item:hover, .site-nav .item.item:focus {
-  color: #2196f3;
+.site-nav .item {
+  position: relative;
 }
 
 .site-nav .curent::after {

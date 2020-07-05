@@ -47,14 +47,14 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  &.link:hover,
+  &.link:focus {
+    color: $akcent-color;
+  }
 }
 
 .site-nav .item {
   position: relative;
-  &.item:hover,
-  &.item:focus {
-    color: $akcent-color;
-  }
 }
 
 .site-nav .curent::after {
