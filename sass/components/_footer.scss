@@ -1,5 +1,5 @@
 .footer {
-  background-color: $footer-color;
+  background-color: $foter-color;
   padding-top: 48px;
 }
 
@@ -38,7 +38,7 @@
 .text {
   font-size: 14px;
   line-height: 1.7;
-  color: var(--begraund-color);
+  color: $bagraund-color;
 }
 
 .adress-item p {
@@ -50,7 +50,7 @@
 }
 
 .footer-logo {
-  color: var(--begraund-color);
+  color: $bagraund-color;
   text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
@@ -60,7 +60,7 @@
 }
 
 .join-in {
-  color: var(--begraund-color);
+  color: $text-color;
   margin: 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -78,7 +78,7 @@
 }
 
 .adres-title {
-  color: var(--info-color);
+  color: $info-color;
   font-size: 12px;
   line-height: 2;
   text-decoration: none;

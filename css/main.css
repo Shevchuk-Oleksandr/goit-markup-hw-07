@@ -19,17 +19,11 @@ body {
   padding: 0;
 }
 
-.page-header {
-  background-color: #ffffff;
-}
-
 .page-line {
   border-bottom: 1px solid #ececec;
 }
 
 .page-header .container {
-  margin-left: auto;
-  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,6 +68,10 @@ body {
   padding: 0;
 }
 
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
   color: #212121;
   text-decoration: none;
@@ -82,8 +80,17 @@ body {
   padding-bottom: 32px;
 }
 
-.site-nav .item + .item {
-  margin-left: 50px;
+.link {
+  color: #212121;
+  text-decoration: none;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.link:hover, .link:focus {
+  color: #2196f3;
+  --color3: $akcent-color;
 }
 
 .site-nav .item {
@@ -108,7 +115,7 @@ body {
   padding: 0;
 }
 
-a {
+.info-title a {
   text-decoration: none;
   color: #757575;
 }
@@ -128,16 +135,6 @@ a {
   fill: currentColor;
 }
 
-.info-title .link {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.info-title .link.link:hover, .info-title .link.link:focus {
-  color: #2196f3;
-  --color3: $akcent-color;
-}
-
 .mail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,6 +148,7 @@ a {
   padding: 0;
   margin: 0;
   margin-right: 10px;
+  color: currentColor;
   width: 10px;
   height: 15px;
 }
@@ -489,7 +487,7 @@ a {
 .icon-container {
   width: 270px;
   height: 120px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   -webkit-box-pack: center;
@@ -587,8 +585,8 @@ a {
 }
 
 .button {
-  background-color: var(--akcent-color);
-  color: #2196f3;
+  background-color: #2196f3;
+  color: white;
   border: 1px solid transparent;
   padding: 10px 32px;
   border-radius: 4px;
@@ -770,7 +768,7 @@ a {
 .team-link:hover,
 .team-link:focus {
   background-color: #2196f3;
-  --color4: white;
+  --color4: $bacgraund-color;
 }
 
 .icon-team {
@@ -784,9 +782,6 @@ a {
 }
 
 .Regular-customers .container-costumers {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -826,7 +821,7 @@ a {
 }
 
 .regular:hover {
-  border: 1px solid var(--akcent-color);
+  border: 1px solid #2196f3;
 }
 
 .regular .link {
@@ -837,7 +832,7 @@ a {
 
 .regular .link:hover,
 .regular .link:focus {
-  fill: var(--akcent-color);
+  fill: #2196f3;
 }
 
 .icon-yoco {
@@ -871,7 +866,7 @@ a {
 }
 
 .footer {
-  background-color: var(--foter-color);
+  background-color: #2f303a;
   padding-top: 48px;
 }
 
@@ -914,7 +909,7 @@ a {
 .text {
   font-size: 14px;
   line-height: 1.7;
-  color: var(--begraund-color);
+  color: #ffffff;
 }
 
 .adress-item p {
@@ -926,7 +921,7 @@ a {
 }
 
 .footer-logo {
-  color: var(--begraund-color);
+  color: #ffffff;
   text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
@@ -936,7 +931,7 @@ a {
 }
 
 .join-in {
-  color: var(--begraund-color);
+  color: #757575;
   margin: 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -954,7 +949,7 @@ a {
 }
 
 .adres-title {
-  color: var(--info-color);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
   line-height: 2;
   text-decoration: none;
@@ -1038,7 +1033,7 @@ a {
 
 .icon-link:hover,
 .icon-link:focus {
-  background-color: var(--akcent-color);
+  background-color: #2196f3;
 }
 
 .send-button .button {
