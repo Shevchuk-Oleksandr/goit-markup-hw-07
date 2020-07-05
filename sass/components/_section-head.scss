@@ -1,8 +1,7 @@
-.page-line {
-  border-bottom: 1px solid #ececec;
-}
-
 .page-header .container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -37,10 +36,9 @@
 .site-nav {
   display: flex;
   padding: 0;
-}
-
-.site-nav .item + .item {
-  margin-left: 50px;
+  &.item + .item {
+    margin-left: 50px;
+  }
 }
 
 .site-nav .link {
@@ -51,22 +49,11 @@
   padding-bottom: 32px;
 }
 
-.link {
-  color: $had-color;
-  text-decoration: none;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  &:hover,
-  &:focus {
-    color: $akcent-color;
-    --color3: $akcent-color;
-  }
-}
-
 .site-nav .item {
   position: relative;
+}
+.item:hover {
+  color: $akcent-color;
 }
 
 .site-nav .curent::after {
@@ -80,12 +67,18 @@
   background-color: $akcent-color;
 }
 
+.info-title a {
+  text-decoration: none;
+  color: $text-color;
+}
+
 .info-title {
   display: flex;
   padding: 0;
-  a {
-    text-decoration: none;
-    color: $text-color;
+  & .link:hover,
+  & .link:focus {
+    color: $akcent-color;
+    --color3: $akcent-color;
   }
 }
 
@@ -119,8 +112,4 @@
 
 .telefon {
   display: flex;
-}
-
-.menu__li .active a {
-  color: $akcent-color;
 }

@@ -1,7 +1,7 @@
 .icon-container {
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: $baground-color-second;
   border-radius: 4px;
   margin-bottom: 30px;
   justify-content: center;
@@ -42,14 +42,14 @@
 .border-picteres {
   width: 270px;
   height: 120px;
-  background: #f5f4fa;
+  background: $baground-color-second;
   border-radius: 4px;
   display: block;
   margin-bottom: 30px;
 }
 
 .section-title {
-  color: var(--second-color);
+  color: $had-color;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
@@ -67,7 +67,7 @@
 
 .link:hover,
 .link:focus {
-  color: var(--akcent-color);
+  color: $akcent-color;
   text-decoration: none;
   cursor: pointer;
 }
@@ -90,7 +90,7 @@
 
 .button {
   background-color: $akcent-color;
-  color: white;
+  color: $bagraund-color;
   border: 1px solid transparent;
   padding: 10px 32px;
   border-radius: 4px;
