@@ -51,9 +51,10 @@
 
 .site-nav .item {
   position: relative;
-}
-.item:hover {
-  color: $akcent-color;
+  &.item:hover,
+  &.item:focus {
+    color: $akcent-color;
+  }
 }
 
 .site-nav .curent::after {

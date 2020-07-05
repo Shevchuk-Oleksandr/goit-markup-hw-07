@@ -48,9 +48,11 @@
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: white;
+  color: $bagraund-color;
   border-color: $akcent-color;
   background: $akcent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+@import './backdrop';

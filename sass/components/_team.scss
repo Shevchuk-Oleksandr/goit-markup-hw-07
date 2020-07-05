@@ -20,7 +20,7 @@
 .section-team {
   font-size: 16px;
   line-height: 1.2;
-  background-color: var(--baground-color-second);
+  background-color: $baground-color-second;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -32,29 +32,23 @@
   text-align: center;
   margin-bottom: 10px;
   margin-top: 30px;
-  color: #212121;
+  color: $had-color;
 }
 
 .subtitle {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: var(--primary-text-color);
-  text-align: center;
+  color: $text-color;
   margin-top: 0;
   margin-bottom: 28px;
-}
-
-.color {
-  color: var(--primary-text-color);
-  text-decoration: none;
 }
 
 .team-box {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  background-color: var(--begraund-color);
+  background-color: $bagraund-color;
 }
 
 .social-list {
@@ -73,19 +67,17 @@
   cursor: pointer;
   margin-right: 10px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $akcent-color;
+    --color4: white;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.team-link:last-child {
-  margin-right: 0;
-}
-
-.team-link:hover,
-.team-link:focus {
-  background-color: $akcent-color;
-  --color4: $bacgraund-color;
-}
-
-.icon-team {
+.team-link .icon-team {
   width: 20px;
   height: 20px;
 }
